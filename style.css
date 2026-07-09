@@ -117,3 +117,34 @@ color:#fff;
 text-align:center;
 padding:20px;
 }
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.gallery img{
+width:100%;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+
+.reviews{
+background:#f4f4f4;
+padding:80px 8%;
+}
+
+.why{
+background:white;
+padding:80px 8%;
+}
+
+.button{
+display:inline-block;
+margin:10px;
+}
